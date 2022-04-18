@@ -1,7 +1,6 @@
 {
   "version": 2,
   "projects": {
-    "nx-demo": "apps/nx-demo",
-    "nx-demo-e2e": "apps/nx-demo-e2e"
+    "nx-lib": "libs/nx-lib"
   }
 }

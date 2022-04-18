@@ -1,0 +1,11 @@
+<svg class="gp-link-x-icon" *ngIf="iconVariations === 'iconleft' && iconId" aria-hidden="true">
+  <use [attr.href]="'/assets/images/svg-defs.svg#' + iconId"></use>
+</svg>
+
+<span class="gp-link-x-label">
+  <ng-content></ng-content>
+</span>
+
+<svg class="gp-link-x-icon" *ngIf="iconVariations === 'iconright' && iconId" aria-hidden="true">
+  <use [attr.href]="'/assets/images/svg-defs.svg#' + iconId"></use>
+</svg>
